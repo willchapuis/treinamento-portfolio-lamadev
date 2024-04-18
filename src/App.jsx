@@ -4,17 +4,19 @@ import Test from "./Test"
 
 const App = () => {
   return (
-    // <div>
-    //   <section><Navbar/></section>
-    //   <section>Parallax</section>
-    //   <section>Services</section>
-    //   <section>Projects</section>
-    //   <section>Portfolio1</section>
-    //   <section>Portfolio2</section>
-    //   <section>Portfolio3</section>
-    //   <section>Contact</section>
-    // </div>
-    <Test/>
+    <div>
+      <section id="Homepage">
+        <Navbar/>
+      </section>
+      <section id="Services">Parallax</section>
+      <section>Services</section>
+      <section id="Portfolio">Projects</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section id="Contact">Contact</section>
+    </div>
+    // <Test/>
   )
 };
 
